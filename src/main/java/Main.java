@@ -2,7 +2,7 @@ import java.util.List;
 
 public class Main {
 
-    public static double priceAllBook(List<Book> list) {
+    public static double sumPrice(List<Book> list) {
         double sumPrice = 0.0;
         for (Book book: list) {
             sumPrice += pricePerBook(book);
