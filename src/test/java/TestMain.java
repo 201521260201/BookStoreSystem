@@ -13,6 +13,6 @@ public class TestMain {
         list.add(book1);
         list.add(book2);
         list.add(book3);
-        System.out.println(Main.priceAllBook(list));
+        System.out.println("总价：" + Main.priceAllBook(list));
     }
 }
