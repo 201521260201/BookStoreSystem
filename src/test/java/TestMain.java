@@ -13,6 +13,9 @@ public class TestMain {
         list.add(book1);
         list.add(book2);
         list.add(book3);
-        System.out.println("总价：" + Main.priceAllBook(list));
+        for (Book book: list) {
+            System.out.println("书名：" + book.getName() + "  数量：" + book.getNumber() + "  价格：" + Main.pricePerBook(book));
+        }
+        System.out.println("合计：" + Main.priceAllBook(list));
     }
 }
