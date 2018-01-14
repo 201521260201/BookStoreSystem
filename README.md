@@ -1,2 +1,2 @@
-# BookStoreSystem
-# ZTE 李高祥
+# 书店结账系统
+# ZTEer 李高祥
